@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <!-- <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -83,15 +83,24 @@
         >
       </li>
     </ul>
+  </div> -->
+  <div>
+    你好,vue
   </div>
 </template>
 
 <script>
+// import { patchAtBootstrapping } from "../../node_modules/qiankun/es/sandbox/patchers";
+
 export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  mounted: function () {
+    console.log(patchAtBootstrapping);
   }
+
 };
 </script>
 

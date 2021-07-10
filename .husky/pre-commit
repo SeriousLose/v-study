@@ -4,3 +4,4 @@
 # npm test
 # npx eslint --fix ./src --ext .vue,.js,.ts
 npx lint-staged
+# npx eslint --fix ./src --ext .vue,.js,.ts

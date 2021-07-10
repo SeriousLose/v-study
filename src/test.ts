@@ -1,3 +1,3 @@
 const a = 1
-var b=2;
-var c=5;
+const b = 2
+const c = 5

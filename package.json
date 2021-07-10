@@ -6,7 +6,7 @@
     "serve": "vite preview",
     "prepare": "husky install",
     "lint-staged": {
-      "*.{vue,js,ts}": "npx prettier --write ."
+      "*.{vue,js,ts}": "npx eslint --fix"
     }
   },
   "dependencies": {
@@ -18,11 +18,15 @@
   },
   "devDependencies": {
     "@types/node": "^16.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
     "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.0.5",
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.13.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.0.0",

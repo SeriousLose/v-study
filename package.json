@@ -54,5 +54,6 @@
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
-  }
+  },
+  "homepage": "https://SeriousLose.github.io/v-study/"
 }

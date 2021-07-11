@@ -18,5 +18,6 @@ export default defineComponent({
     }
     return { count, increment }
   }
+
 })
 </script>

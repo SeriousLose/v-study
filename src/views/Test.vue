@@ -14,7 +14,7 @@ export default defineComponent({
   setup() {
     const count = ref<number>(0)
     const increment = () => {
-      count.value += 2
+      count.value += 1
     }
     return { count, increment }
   }

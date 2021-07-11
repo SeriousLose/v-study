@@ -1,7 +1,7 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ msg }},哈喽,你好 SeriousLose</h1>
 
-  <p>
+  <!-- <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
     +
@@ -12,9 +12,9 @@
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
     (if using
     <code>&lt;script setup&gt;</code>)
-  </p>
+  </p> -->
 
-  <p>See <code>README.md</code> for more information.</p>
+  <!-- <p>See <code>README.md</code> for more information.</p>
 
   <p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
@@ -26,7 +26,7 @@
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  </p> -->
 </template>
 
 <script lang="ts">

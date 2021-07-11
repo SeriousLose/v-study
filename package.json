@@ -4,10 +4,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "prepare": "husky install",
-    "lint-staged": {
-      "*.{vue,js,ts}": "npx eslint --fix ./src --ext .vue,.js,.ts"
-    }
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -22,6 +19,8 @@
     "@typescript-eslint/parser": "^4.28.2",
     "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.0.5",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -39,5 +38,10 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
